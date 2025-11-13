@@ -259,7 +259,7 @@ public class XeradorMenus {
                         + "\n");
             } else {
                 System.out.println(solicitude++ + " -> " + solicitudesPendentes.getNome() +
-                        "Te fixo unha solicitude de amizade");
+                        " Te fixo unha solicitude de amizade");
             }
         }
         return haisolicitudes;
@@ -319,7 +319,7 @@ public class XeradorMenus {
             while (it.hasNext()) {
                 Perfil amigo = it.next();
                 if (perfil.getNome().equals(perfil.getNome())) {
-                    System.out.println(amigos++ + " -> " + perfil.getNome() + perfil.getEstado());
+                    System.out.println(amigos++ + " -> " + perfil.getNome() +" " + perfil.getEstado());
                 }
             }
             int respuesta;
